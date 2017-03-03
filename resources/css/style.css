@@ -58,6 +58,10 @@ nav ul li {
   margin: 1rem 2rem;
 }
 
+.second {
+  display: none;
+}
+
 .main .flex {
   justify-content: flex-end;
 }
@@ -144,4 +148,125 @@ footer {
 footer img {
   height: 1.5rem;
   padding: 4rem 1rem 4rem 3rem;
+}
+
+/* Media Query 1025 */
+
+@media only screen and (max-width: 1025px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .main {
+    padding: 0;
+    height: 22rem;
+  }
+
+  .slogan {
+    padding: .75rem 4rem;
+    margin-right: 2rem;
+    margin-top: 5rem;
+  }
+
+  .slogan h1 {
+    font-size: 1.33rem;
+    padding: .25rem;
+  }
+
+}
+
+/* Media Query 470 px */
+
+@media only screen and (max-width: 560px) {
+
+/* Main Part of Site */
+
+  .first {
+    display: none;
+  }
+
+  .second {
+    display: block;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+  .main {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .slogan {
+    margin-top: 9rem;
+    width: 100%;
+    margin-right: 0;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-align: center;
+  }
+
+  .slogan h1 {
+    font-size: 1rem;
+    padding: 0;
+  }
+
+  /* three picture part */
+
+  .three {
+    flex-direction: column;
+    align-items: center;
+    margin: 3.77rem 0;
+    justify-content: flex-start;
+
+  }
+
+  .one {
+    font-size: 0.77rem;
+    margin: 0.77rem;
+    height: auto;
+  }
+
+  /* supporting */
+
+  .supporting {
+    flex-direction: column;
+  }
+
+  .piece {
+    width: auto;
+
+  }
+
+  .piece .para {
+    width: 100%;
+    text-align: center;
+    max-width: 100%;
+
+  }
+
+  p .para {
+    padding: 0
+  }
+
+  .small{
+   font-size: 0.77rem;
+   margin: 0;
+   margin-bottom: 4rem;
+   padding: 1rem;
+ }
+  /* Footer */
+  footer {
+    display: flex;
+    justify-content: center;
+  }
+
+  footer span {
+    display: none;
+  }
+
+  footer img {
+    padding: 4rem 0;
+  }
 }
