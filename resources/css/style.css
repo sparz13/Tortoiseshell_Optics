@@ -75,3 +75,73 @@ nav ul li {
   font-size: 2rem;
   text-transform: uppercase;
 }
+
+/* Three picture section */
+
+.three {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+
+.one {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem;
+  width: 5rem;
+  height: 8rem;
+}
+
+.one img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+#paper {
+  width: 3.5rem;
+}
+
+.one p {
+  font-size: .75rem;
+}
+
+/* Supporting Section */
+
+.supporting {
+  display: flex;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+.piece .para {
+  background-color: cadetblue;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 0.5rem 1.25rem;
+  width: 10rem;
+
+}
+
+.piece {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  margin-right: 5%;
+}
+
+/* Footer */
+
+footer {
+  background-color: azure;
+  display: flex;
+  align-items: center;
+}
+
+footer img {
+  height: 1.5rem;
+  padding: 4rem 1rem 4rem 3rem;
+}
